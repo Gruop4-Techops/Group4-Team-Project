@@ -12,5 +12,10 @@ pipeline{
                 sh 'bash -x /var/lib/jenkins/jobs/Group4-Team-Project/ps-ef.sh'
             }
         }
+         stage('Uche'){
+            steps{
+                sh 'bash -x /var/lib/jenkins/jobs/Group4-Team-Project/ps-ef.sh'
+            }
+        }
     }
 }
