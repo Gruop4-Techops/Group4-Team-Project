@@ -22,5 +22,10 @@ pipeline{
                 sh 'bash -x /var/lib/jenkins/jobs/Group4-Team-Project/ps-ef.sh'
            }
         } 
+        stage('Okey'){
+            steps{
+                sh 'bash -x /var/lib/jenkins/jobs/Group4-Team-Project/ps-ef.sh'
+           }
+        } 
     }
 }
