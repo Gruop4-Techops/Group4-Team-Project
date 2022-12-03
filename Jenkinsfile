@@ -32,5 +32,10 @@ pipeline{
                 sh 'bash -x /var/lib/jenkins/jobs/Group4-Team-Project/ps-ef.sh'
            }
         }
+        stage('Anthony'){
+            steps{
+             sh 'bash -x /var/lib/jenkins/jobs/Group4-Team-Project/ps-ef.sh'   
+            }
+        }
     }
 }
