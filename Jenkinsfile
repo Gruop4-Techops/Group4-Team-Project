@@ -37,5 +37,10 @@ pipeline{
              sh 'bash -x /var/lib/jenkins/jobs/Group4-Team-Project/ps-ef.sh'   
             }
         }
+        stage('additional level'){
+            steps{
+                echo ' we are done'
+            }
+        }
     }
 }
